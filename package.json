@@ -29,9 +29,9 @@
   "author": "Firebase",
   "license": "MIT",
   "bin": {
-    "firebase-import": "./bin/firebase-import.js"
+    "firebase-import": "./firebase-import.js"
   },
   "scripts": {
-    "build": "copyfiles -f src/firebase-import.js bin"
+    "build": "copyfiles -f firebase-import.js bin"
   }
 }
